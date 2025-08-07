@@ -5,18 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body bgcolor="skyblue">
-    <h1 align="center">TREES</h1>
-    <h1 align="center">by: MARK ONG</h1>
+<body background="789.jpg">
+    <h1 ALIGN="CENTER">CALCULATOR</h1>
+     <script>
+        function ADD() 
+        {
+          var a, b, c;
+          a = Number(document.getElementById("value1").value);
+          b = Number(document.getElementById("value2").value);
+          c = a + b;
+          document.getElementById("answer").value = c;
 
-    <p align="center">I<br> think<br> that &nbsp; &nbsp; I<br> Shall never <br> see,&nbsp; &nbsp;A poem
-    <br> Lovely&nbsp; as a tree <br> A tree &nbsp;whose hungry <br> mount is priest,&nbsp; Against
-     <br> the &nbsp; earth's sweet &nbsp; flowing <br> breast. &nbsp; A tree &nbsp; that &nbsp; looks at <br> God all day, &nbsp; And lifts her
-    leaft <br> arms to pray, &nbsp; A tree &nbsp; that may in <br> Summer wear. &nbsp; A nest &nbsp; of robins in
-     <br> her &nbsp; &nbsp; hait , upon whose bosom &nbsp; snow <br> has lain, &nbsp; whose intimately live with rain
-     <br> poems are make <br> by fools like me, <br> but only God can <br> make &nbsp; a &nbsp; tree.</p> 
-     
-     <h1 align="center"> THANK YOU GOD </h1>
+        }
+     </script>
+    
+    <input id="value1">
+    <input id="value2">
+    <button onclick="ADD()">ADD</button>
+    <input id="answer">
 
+
+     <script>
+        function MINUS() 
+        {
+          var a, b, c;
+          a = Number(document.getElementById("value3").value);
+          b = Number(document.getElementById("value4").value);
+          c = a - b;
+          document.getElementById("RESULT").value = c;
+
+        }
+     </script><br><br>
+ 
+    <input id="value3">
+    <input id="value4">
+    <button onclick="MINUS()">MINUS</button>
+    <input id="RESULT">
+
+    
+     <script>
+        function TIMES() 
+        {
+          var a, b, c;
+          a = Number(document.getElementById("value5").value);
+          b = Number(document.getElementById("value6").value);
+          c = a * b;
+          document.getElementById("ANSWER").value = c;
+
+        }
+     </script><br><br>
+ 
+    <input id="value5">
+    <input id="value6">
+    <button onclick="TIMES()">TIMES</button>
+    <input id="ANSWER">
+
+     <script>
+        function DIVIDE() 
+        {
+          var a, b, c;
+          a = Number(document.getElementById("value7").value);
+          b = Number(document.getElementById("value8").value);
+          c = a / b;
+          document.getElementById("result").value = c;
+
+        }
+     </script><br><br>
+ 
+    <input id="value7">
+    <input id="value8">
+    <button onclick="DIVIDE()">DIVIDE</button>
+    <input id="result">
 </body>
 </html>
